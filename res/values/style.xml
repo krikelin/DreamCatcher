@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="Button" parent="@android:style/Widget.Button">
+		<item name="android:background">@drawable/entry</item>
+	</style>
+	<style name="DreamCatcher" parent="@android:style/Theme.Light">
+		<item name="android:button">@style/Button</item>
+	</style>
+	 
+</resources> 

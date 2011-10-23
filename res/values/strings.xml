@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">DreamCatcher</string>
+    <string name="query_create_dream_table">CREATE TABLE \"dream\" (\"_id\"  INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL ,\"time\" DATETIME DEFAULT (CURRENT_DATE) ,\"desc\" TEXT DEFAULT \"\" ,\"sex\" BOOL DEFAULT (0) ,\"part\" INTEGER DEFAULT (1) ,\"tags\" TEXT,\"title\" TEXT)</string>
+    <string name="str_btn_add_dream">Add dream</string>
+    <string name="str_btn_show_recent">Show recent dreams</string>
+    <string name="str_label_tag">Tags</string>
+    <string name="str_menu_tag">Tag</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button android:id="@+id/button1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@drawable/entry" android:text="@string/str_btn_add_dream" android:layout_margin="2pt"></Button>
+    <Button android:id="@+id/button2" android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@drawable/entry" android:text="@string/str_btn_show_recent" android:layout_margin="2pt"></Button>
+
+</LinearLayout>

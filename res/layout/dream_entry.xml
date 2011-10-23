@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical" android:padding="5pt">
+    <TextView android:text="TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="12pt" android:id="@+id/tvDate" android:textStyle="bold"></TextView>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tvTitle" android:text="TextView" android:textSize="8pt"></TextView>
+    <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold" android:text="@string/str_label_tag"></TextView>
+    <TextView android:text="TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tvTags"></TextView>
+    <TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Description" android:textStyle="bold"></TextView>
+    <TextView android:text="TextView" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/tvDescription"></TextView>
+</LinearLayout>
